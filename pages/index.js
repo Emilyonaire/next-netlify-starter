@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import Topbar from '@components/topbar'
+import Test from '@components/Test'
 
 export default function Home() {
   return (
     <div className="container">
-      <Topbar />
+      <Test />
       <Head>
         <title>Emily Cowell Portfolio!</title>
         <link rel="icon" href="/favicon.ico" />

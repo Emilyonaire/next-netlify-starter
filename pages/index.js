@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import Topbar from '@components/topBar'
+import Topbar from '@components/topbar'
 
 export default function Home() {
   return (

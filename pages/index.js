@@ -6,7 +6,7 @@ import Test from '@components/Test'
 export default function Home() {
   return (
     <div className="container">
-      <Test />
+      <Test title="Yo yo yo uwu!"/>
       <Head>
         <title>Emily Cowell Portfolio!</title>
         <link rel="icon" href="/favicon.ico" />

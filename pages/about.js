@@ -6,16 +6,16 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Emily Cowell Portfolio!</title>
+        <title>About!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my Portfolio!" />
+        <Header title="About" />
         <p className="description">
           temp
         </p>
-        <button href="/about">about</button>
+        <button href="/index">Home</button>
       </main>
 
       <Footer />

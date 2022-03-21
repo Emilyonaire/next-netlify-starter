@@ -15,7 +15,7 @@ export default function Home() {
         <p className="description">
           temp
         </p>
-        <button href="/index">Home</button>
+        <button href="index">Home</button>
       </main>
 
       <Footer />

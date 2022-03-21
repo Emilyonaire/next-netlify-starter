@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import Test from '@components/Test'
+import Test from '@components/Topbar'
 
 export default function Home() {
   return (
     <div className="container">
-      <Test title="Yo yo yo uwu!"/>
+      <Topbar title="Yo yo yo uwu!"/>
       <Head>
         <title>Emily Cowell Portfolio!</title>
         <link rel="icon" href="/favicon.ico" />

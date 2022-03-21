@@ -17,9 +17,7 @@ export default function Home() {
         </p>
       </main>
 
-      <Footer>
-        <p>gg ez.</p>
-      <Footer/>
+      <Footer />
     </div>
   )
 }

@@ -5,7 +5,7 @@ import Topbar from '@components/Topbar'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container" >
       <Topbar title="Yo yo yo uwu!"/>
       <Head>
         <title>Emily Cowell Portfolio!</title>

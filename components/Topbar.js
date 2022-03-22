@@ -4,8 +4,11 @@ import styles from './Topbar.module.css'
 export default function Topbar({ title }) {
     return (
         <>
-            <img src="/netliheart.svg" alt="Netlify Logo" className={styles.icon} />
-            <h1 className={`${styles.topbarTitle}`}>{title} NEED TO FIX CSS</h1>
+            <nav class="navbar" role={"navigation"} aria-label="main navigation">
+                <div className='navbar-brand'>
+                    <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} href="index/#" />
+                </div>
+            </nav>
 
         </>
     )

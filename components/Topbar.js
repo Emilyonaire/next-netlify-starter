@@ -13,11 +13,11 @@ export default function Topbar({ title }) {
             </nav> */}
             <div className={styles.titleBar}>
                 <img src="/netliheart.svg" alt="Netlify Logo" className={styles.icon} href="index/#" />
-                <span className={styles.topbarArea}> 
+                <div className={styles.topbarArea}> 
                     <span className={styles.pageTitle}>
                         {title}
                     </span>
-                </span>
+                </div>
             </div>
         </>
     )

@@ -14,7 +14,10 @@
 .icon{
     float: left;
     /* border-radius: 5px; */
-    width: calc(3% * 98%);
+    max-width: 3vh;
+    max-height: 3vh;
+    min-width: 2vh;
+    min-height: 2vh;
 }
 
 .titleBar{

@@ -17,7 +17,7 @@
     max-width: 8vh;
     max-height: 8vh;
     margin-left: 1vh;
-    margin-top: 1vh;
+    /* margin-top: 1vh; */
     position: absolute;
 }
 
@@ -30,6 +30,7 @@
     color: rgb(115,119,122);
     width: 98vw;
     height: 10vh;
+    vertical-align: middle;
 }
 
 .pageTitle{
@@ -43,5 +44,4 @@
     font-stretch: condensed;
     border-color: rgb(115,119,122);
     border-width: 2px;
-    text-align: center;
 }

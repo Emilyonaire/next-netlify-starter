@@ -2,7 +2,7 @@ import styles from './Topbar.module.css'
 
 
 export default function Topbar({ title }) {
-    title = document.window.title;
+    // title = document.window.title;
     
     return (
         <>

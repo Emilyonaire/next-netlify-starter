@@ -8,7 +8,7 @@ export default function Home() {
     <div className="container" >
       <Topbar title="Yo yo yo uwu!"/>
       <Head>
-        <title>Emily Cowell Portfolio!</title>
+        <title>;uihe Portfolio!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

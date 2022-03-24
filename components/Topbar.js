@@ -17,6 +17,7 @@ export default function Topbar({ title }) {
                     <span className={styles.pageTitle}>
                         {title}
                     </span>
+                    {/* CHANGE THIS TO USE GRID COLUMNS FOR THIS AS SEEMS TO ALLOW LINE CENTERING OF TEXT */}
                 </div>
             </div>
         </>

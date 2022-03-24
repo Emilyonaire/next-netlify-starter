@@ -14,15 +14,15 @@ export default function Topbar({ title }) {
                 </div>
             </nav> */}
             <div className={styles.gridcontainer}>
-                <div className={styles.icon}>temp</div>
-                <div className={styles.pageTitle}>temp</div>
-                <div className={styles.spacerGGGGG}>temp</div>
-                <div className={styles.spacerGGGGG}>temp</div>
-                <div className={styles.searchBarArea}>temp</div>
-                <div className={styles.spacerGGGGG}>temp</div>
-                <div className={styles.topbarArea}>temp</div>
-                <div className={styles.topbarArea}>temp</div>
-                <div className={styles.topbarArea}>temp</div>
+                <div className={styles.item1}>temp</div>
+                <div className={styles.item2}>temp</div>
+                <div className={styles.item3}>temp</div>
+                <div className={styles.item3}>temp</div>
+                <div className={styles.item4}>temp</div>
+                <div className={styles.item3}>temp</div>
+                <div className={styles.item5}>temp</div>
+                <div className={styles.item5}>temp</div>
+                <div className={styles.item5}>temp</div>
             </div>
         </>
     )

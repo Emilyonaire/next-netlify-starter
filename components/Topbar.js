@@ -15,9 +15,15 @@ export default function Topbar({ title }) {
             </nav> */}
             <div className={styles.gridcontainer}>
                 <img src="/netliheart.svg" alt="Netlify Logo" className={styles.icon} href="index/#" />
-                <span className={styles.pagetitle}> 
+                <span className={`${styles.pageTitle} ${this.props.content.divClassName}`}> 
                     {title}
                 </span>
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.spacer} href="index/#" />
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.search} href="index/#" />
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.spacer} href="index/#" />
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.area} href="index/#" />
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.area} href="index/#" />
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.area} href="index/#" />
             </div>
         </>
     )

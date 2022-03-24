@@ -14,17 +14,15 @@ export default function Topbar({ title }) {
                 </div>
             </nav> */}
             <div className={styles.gridcontainer}>
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.icon} href="index/#" />
-                <span className={styles.pageTitle}> 
-                    {title}
-                </span>
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.spacerGGGGG} href="index/#" />
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.spacerGGGGG} href="index/#" />
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.searchBarArea} href="index/#" />
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.spacerGGGGG} href="index/#" />
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.topbarArea} href="index/#" />
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.topbarArea} href="index/#" />
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.topbarArea} href="index/#" />
+                <div className={styles.icon}>temp</div>
+                <div className={styles.pageTitle}>temp</div>
+                <div className={styles.spacerGGGGG}>temp</div>
+                <div className={styles.spacerGGGGG}>temp</div>
+                <div className={styles.searchBarArea}>temp</div>
+                <div className={styles.spacerGGGGG}>temp</div>
+                <div className={styles.topbarArea}>temp</div>
+                <div className={styles.topbarArea}>temp</div>
+                <div className={styles.topbarArea}>temp</div>
             </div>
         </>
     )

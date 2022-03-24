@@ -15,15 +15,16 @@ export default function Topbar({ title }) {
             </nav> */}
             <div className={styles.gridcontainer}>
                 <img src="/netliheart.svg" alt="Netlify Logo" className={styles.icon} href="index/#" />
-                <span className={`${styles.pageTitle} ${this.props.content.divClassName}`}> 
+                <span className={`${styles.pageTitle} "pageTitle"`}> 
                     {title}
                 </span>
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.spacer} href="index/#" />
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.search} href="index/#" />
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.spacer} href="index/#" />
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.area} href="index/#" />
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.area} href="index/#" />
-                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.area} href="index/#" />
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.spacerGGGGG} href="index/#" />
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.spacerGGGGG} href="index/#" />
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.searchBarArea} href="index/#" />
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.spacerGGGGG} href="index/#" />
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.topbarArea} href="index/#" />
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.topbarArea} href="index/#" />
+                <img src="/netliheart.svg" alt="Netlify Logo" className={styles.topbarArea} href="index/#" />
             </div>
         </>
     )

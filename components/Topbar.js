@@ -15,12 +15,9 @@ export default function Topbar({ title }) {
             </nav> */}
             <div className={styles.titleBar}>
                 <img src="/netliheart.svg" alt="Netlify Logo" className={styles.icon} href="index/#" />
-                <div className={styles.topbarArea}> 
-                    <span className={styles.pageTitle}>
-                        {title}
-                    </span>
-                    {/* CHANGE THIS TO USE GRID COLUMNS FOR THIS AS SEEMS TO ALLOW LINE CENTERING OF TEXT */}
-                </div>
+                <span className={styles.pagetitle}> 
+                    {title}
+                </span>
             </div>
         </>
     )

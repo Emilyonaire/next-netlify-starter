@@ -41,7 +41,7 @@ code {
 
 .gridcontainer{ 
   display: grid;
-  grid-template-areas:'icon pageTitle spacer spacer search spacer area area area';
+  grid-template-areas:'a b c d e';
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;
@@ -52,8 +52,8 @@ code {
   padding: 20px 0;
   font-size: 30px;
 }
-.item1 { grid-area: icon; }
-.item2 { grid-area: pageTitle; }
-.item3 { grid-area: spacer; }
-.item4 { grid-area: search; }
-.item5 { grid-area: general; }
+.item1 { grid-area: a; }
+.item2 { grid-area: b; }
+.item3 { grid-area: c; }
+.item4 { grid-area: d; }
+.item5 { grid-area: e; }

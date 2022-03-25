@@ -14,11 +14,11 @@ export default function Topbar({ title }) {
             </nav> */}
             <div className={styles.topbarContainer}>
                 <div class="gridContainer">
-                    <div class="item1"></div>
-                    <div class="item2"></div>
-                    <div class="item3"></div>
-                    <div class="item4"></div>
-                    <div class="item5"></div>
+                    <div class="item1">a</div>
+                    <div class="item2">b</div>
+                    <div class="item3">c</div>
+                    <div class="item4">d</div>
+                    <div class="item5">e</div>
                 </div>
             </div>
             

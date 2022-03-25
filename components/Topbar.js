@@ -1,6 +1,5 @@
 import styles from './Topbar.module.css'
 
-
 export default function Topbar({ title }) {
     // title = document.window.title;
     
@@ -13,9 +12,15 @@ export default function Topbar({ title }) {
 
                 </div>
             </nav> */}
-            <nav className='gridcontainer'>
-                
-            </nav>
+            <div className={styles.topbarContainer}>
+                <div class="gridContainer">
+                    <div class="item1"></div>
+                    <div class="item2"></div>
+                    <div class="item3"></div>
+                    <div class="item4"></div>
+                    <div class="item5"></div>
+                </div>
+            </div>
             
         </>
     )

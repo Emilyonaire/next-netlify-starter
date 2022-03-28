@@ -10,4 +10,5 @@
 .logo {
   height: 1em;
   margin: 5px;
+  justify-self: left;
 }

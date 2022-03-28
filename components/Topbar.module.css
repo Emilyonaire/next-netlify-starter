@@ -1,10 +1,49 @@
-
+.main{
+    justify-content: start;
+}
 .icon{
     float: left;
     /* border-radius: 5px; */
-    max-width: 4vh;
-    max-height: 4vh;
+    width: 4vh;
+    height: 4vh;
     margin-left: 1vh;
     margin-top: 1vh;
     /* position: absolute; */
+}
+
+.pageTitle{
+    border-width: 6vw;
+    color: blue;
+    float: left;
+    background-color: aqua;
+    align-self: center;
+    text-align: center;
+    width: 10vh;
+    height: 4vh;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 2vw;
+    
+}
+
+.barArea{
+    border-width: 6vw;
+    color: blue;
+    float: right;
+    background-color: aqua;
+    align-self: center;
+    text-align: center;
+    width: 10vh;
+    height: 4vh;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 2vw;
+    
+}
+.spacer{
+    float: right;
+    width: 2vw;
+    height: 4vh;
 }

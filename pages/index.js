@@ -8,9 +8,9 @@ import Content from '@components/content'
 export default function Home() {
   return (
     <div className="container" >
-      <Topbar title="Yo yo yo uwu!"/>
+      <Topbar title="tittle"/>
       <Head>
-        <title>;uihe Portfolio!</title>
+        <title>Emily's Portfolio!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

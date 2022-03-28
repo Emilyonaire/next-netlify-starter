@@ -6,11 +6,23 @@ export default function Topbar({ title }) {
     
     return (
         <>
-            <div>
-                <Layout>
+            <Layout>
+                <nobr>
                     <img src="/netliheart.svg" alt="Netlify Logo" className={styles.icon} href="index/#" />
-                </Layout>
-            </div>
+                    <div className={styles.pageTitle}>title</div>
+                    
+                    {/* ^^^^   left to right   ^^^^ */}
+
+
+
+                    {/* vvvv right to left now vvvv */}
+
+                    <div className={styles.spacer}> </div>
+                    <div href="/about" className={styles.barArea}>About</div>
+                    <div href="/projects" className={styles.barArea}>Projects</div>
+                    <div href="/contact" className={styles.barArea}>Contact</div>
+                </nobr>
+            </Layout>
             
         </>
     )

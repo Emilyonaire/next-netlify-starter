@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Topbar from '@components/Topbar'
+import Content from '@components/content'
+
 
 export default function Home() {
   return (
@@ -13,11 +15,13 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my Portfolio!" />
-        <p className="description">
-          temp
-        </p>
-        <a href="about">about</a>
+        <Content>
+          <Header title="Welcome to my Portfolio!" />
+          <p className="description">
+            TEMP TEMP TEMP
+          </p>
+          <a href="about">about</a>
+          </Content>
       </main>
 
       <Footer />

@@ -7,8 +7,14 @@ export default function Topbar({ title }) {
     return (
         <>
             <div>
-                <Layout>
-                    <img src="/netliheart.svg" alt="Netlify Logo" className={styles.icon} href="index/#" />
+                <Layout title={title}>
+                    <nobr>
+                        <img src="/netliheart.svg" alt="Netlify Logo" className={styles.icon} href="index/#" />
+                        <span className={styles.spacer}/>
+                        <button className={styles.myDiv}>
+                            {title}
+                        </button>
+                    </nobr>
                 </Layout>
             </div>
             

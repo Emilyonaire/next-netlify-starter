@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Header from './Header'
 import styles from './layout.module.css'
 
-export default function Layout({ children }) {
+export default function Layout({ children, title }) {
   return (
     <>
       <main className={styles.main}>{children}</main>

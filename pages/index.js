@@ -10,13 +10,13 @@ export default function Home() {
     <div className="container" >
       <Topbar title="Yo yo yo uwu!"/>
       <Head>
-        <title>;uihe Portfolio!</title>
+        <title>Emily's Site!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <Content>
-          <Header title="Welcome to my Portfolio!" />
+          <Header title="Welcome to my Site!" />
           <p className="description">
             TEMP TEMP TEMP
           </p>

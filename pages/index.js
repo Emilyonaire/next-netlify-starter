@@ -3,6 +3,8 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Topbar from '@components/Topbar'
 import Content from '@components/content'
+import ProjectAdRead from '@components/ProjectAdRead'
+import topbarStyles from '@components/layout.module.css'
 
 
 export default function Home() {
@@ -22,7 +24,26 @@ export default function Home() {
             TEMP TEMP TEMP
           </p>
           <a href="about">about</a>
-          </Content>
+          
+          
+          <ProjectAdRead imgSource="/images/closeEnough.jpg"
+          imgAlt="Colour Guide"
+          title="Colour Guide!"
+          description="This is a colour guide!"
+          link="#"
+          lean="left"
+          />
+          <ProjectAdRead imgSource="/images/closeEnough.jpg"
+          imgAlt="Colour Guide"
+          title="Colour Guide!"
+          description="This is a colour guide!"
+          link="#"
+          lean="right"
+          />
+
+          
+
+        </Content>
       </main>
 
       <Footer />

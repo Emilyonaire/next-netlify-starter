@@ -13,7 +13,7 @@ export default function Topbar({ title }) {
                     
                     {/* ^^^^   left to right   ^^^^ */}
 
-
+                    {/* add search bar here maybe */}
 
                     {/* vvvv right to left now vvvv */}
 

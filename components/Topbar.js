@@ -9,6 +9,9 @@ export default function Topbar({ title }) {
             <Layout className={styles.lockToTop}>
                 <nobr>
                     <img src="/netliheart.svg" alt="Netlify Logo" className={styles.icon} href="index/#" />
+                    {/* MAKE COMPONENT TO USE AS BUTTONS, ALLOWS FOR EASIER STYLING */}
+                    {/* WILL NEED TO MOVE BUTTON STYLING OVER AND USE IF STATEMENTS FOR EACH BUTTON TYPE */}
+                    {/* DOABLE TBH */}
                     <div className={styles.pageTitle}>title</div>
                     
                     {/* ^^^^   left to right   ^^^^ */}

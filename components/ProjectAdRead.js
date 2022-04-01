@@ -6,7 +6,8 @@ export default function ProjectAdRead({ imgSource, imgAlt, title, description, l
     if(lean == "left"){
         return (
             <>
-                <div className={styles.areaLeft}>
+                <div className={`${styles.area} ${styles.areaLeft}`}>
+                    <div className={styles.thumbnailBacker} />
                     <Image src={imgSource} alt={imgAlt} className={styles.thumbnail} width={16*50} height={9*50}/>
                     <h2 className={styles.projectHeader}>{title}</h2>
                     <h3 className={styles.projectDescription}>{description}</h3>
@@ -18,7 +19,8 @@ export default function ProjectAdRead({ imgSource, imgAlt, title, description, l
     else if(lean == "right"){
         return (
             <>
-                <div className={styles.areaRight}>
+                <div className={`${styles.area} ${styles.areaRight}`}>
+                    <div className={styles.thumbnailBacker} />
                     <Image src={imgSource} alt={imgAlt} className={styles.thumbnail} width={16*50} height={9*50}/>
                     <h2 className={styles.projectHeader}>{title}</h2>
                     <h3 className={styles.projectDescription}>{description}</h3>
@@ -30,7 +32,8 @@ export default function ProjectAdRead({ imgSource, imgAlt, title, description, l
     else{
         return (
             <>
-                <div className={styles.areaCenter}>
+                <div className={styles.area}>
+                    <div className={styles.thumbnailBacker} />
                     <Image src={imgSource} alt={imgAlt} className={styles.thumbnail} width={16*50} height={9*50}/>
                     <h2 className={styles.projectHeader}>{title}</h2>
                     <h3 className={styles.projectDescription}>{description}</h3>

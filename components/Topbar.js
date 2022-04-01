@@ -6,7 +6,7 @@ export default function Topbar({ title }) {
     
     return (
         <>
-            <Layout>
+            <Layout className={styles.lockToTop}>
                 <nobr>
                     <img src="/netliheart.svg" alt="Netlify Logo" className={styles.icon} href="index/#" />
                     <div className={styles.pageTitle}>title</div>

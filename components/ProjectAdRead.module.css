@@ -2,8 +2,8 @@
     background-color: rgb(31,35,36);
 
 }
-
-.areaCenter{
+.area{
+    margin: 1vh;
     width: 32vw;
     min-height: 22vh;
     background-color: rgb(31,35,36);
@@ -12,26 +12,28 @@
 }
 
 .areaRight{
-    width: 32vw;
-    min-height: 22vh;
-    background-color: rgb(31,35,36);
-    border-radius: 1vh;
-    padding: 2vw;
     align-self: end;
 }
 
 .areaLeft{
-    width: 32vw;
-    min-height: 22vh;
-    background-color: rgb(31,35,36);
-    border-radius: 3-vh;
-    padding: 2vw;
     align-self: start;
 }
 
 .thumbnail{
     border-radius: 1vw;
+    justify-self: center;
+    position: absolute;
+    object-fit: contain;
+
 }
+.thumbnailBacker{
+    border-radius: 1vw;
+    position: absolute;
+    background-color: #2E3235;
+    height: 378px;
+    width: 672px;
+}
+
 .projectHeader{
     width: 100%;
     font-size: 1.5em;

@@ -12,3 +12,16 @@
     justify-content: start;
 }
 
+.mainProjects{
+    align-items: center;
+    background-color: rgb(46,50,53); 
+
+    
+    min-width: 80vw;
+    border-radius: 1vw;
+    padding: 2vw;
+    min-height: 60vh;
+    overflow-y: hidden;
+
+    justify-content: start;
+}

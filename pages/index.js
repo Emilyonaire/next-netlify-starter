@@ -9,9 +9,9 @@ import ProjectAdRead from '@components/ProjectAdRead'
 export default function Home() {
   return (
     <div className="container" >
-      <Topbar title="tittle"/>
+      <Topbar title="page title"/>
       <Head>
-        <title>Emily's Portfolio!</title>
+        <title>Emily's Site!</title>
         {/* <title>Emily's Site!</title> */}
         <link rel="icon" href="/favicon.ico" />
       </Head>

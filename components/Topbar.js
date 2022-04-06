@@ -3,14 +3,14 @@ import Layout from '../components/layout'
 import BarButton from '../components/BarButton'
 
 export default function Topbar({ title }) {
-    // title = document.window.title;
-    
-    return (
+return (
         <>
+        
+    
             <Layout className={styles.lockToTop}>
                 <nobr>
                     <img src="/netliheart.svg" alt="Netlify Logo" className={styles.icon} href="index/#" />
-                    <BarButton text={title} purpose="pageTitle" link="about" />
+                    <BarButton text={"/" + title} purpose="pageTitle" link="about" />
                     
                     {/* ^^^^   left to right   ^^^^ */}
 

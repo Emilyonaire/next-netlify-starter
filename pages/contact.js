@@ -8,16 +8,16 @@ import ProjectAdRead from '@components/ProjectAdRead'
 export default function Home() {
   return (
     <div className="container" >
-      <Topbar title="About"/>
+      <Topbar title="Contact"/>
       <Head>
-        <title>Emily's Site - About</title>
+        <title>Emily's Site - Contact</title>
         {/* <title>Emily's Site!</title> */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <Content>
-          <Header title="About me!" />
+          <Header title="Contact me!" />
           <p className="description">
           Allan please add details!
           </p>

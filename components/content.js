@@ -8,6 +8,12 @@ export default function Content({ children, name }) {
         <main className={styles.mainProjects}>{children}</main>
       </>
     )
+  }else if(name == "demo"){
+    return (
+      <>
+        <main className={styles.gamePanel}>{children}</main>
+      </>
+    )
   }else{
     return (
       <>

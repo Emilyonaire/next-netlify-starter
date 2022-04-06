@@ -47,4 +47,7 @@
     font-style: oblique;
     font-weight: bold;
     color: #00AFF4;
+    line-break: strict;
 }
+
+.projectLink::after { content: '\A'; white-space: pre; }

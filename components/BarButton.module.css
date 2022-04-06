@@ -41,6 +41,12 @@
     margin-bottom: 1vh;
 }
 
+.svg{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    fill: #E2E1D8
+}
+
 .right{
     float: right;
 }

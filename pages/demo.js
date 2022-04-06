@@ -8,33 +8,29 @@ import ProjectAdRead from '@components/ProjectAdRead'
 export default function Home() {
   return (
     <div className="container" >
-      <Topbar title="About"/>
+      <Topbar title="Demo"/>
       <Head>
-        <title>Emily's Site - About</title>
+        <title>Emily's Site - Demo</title>
         {/* <title>Emily's Site!</title> */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Content>
-          <Header title="About me!" />
+        <Content className="mainDemoHeader">
+          <Header title="Minigame!" />
           <p className="description">
-          Allan please add details!
+          Here is a demo of my Unity/C# Skills.
           </p>
           
-          <Content name="projects">
 
-            <ProjectAdRead imgSource="/images/cropped.png"
-            imgAlt="Allan please add details"
-            title="Allan please add details"
-            description="Allan please add details"
-            link="#"
-            lean="left"
-            />
+        </Content>
+        <Content name="demo">
 
-            
-          </Content>
+          <div className='unity-demo'>
+            bruh
+          </div>
 
+          
         </Content>
       </main>
 

@@ -8,9 +8,9 @@ import ProjectAdRead from '@components/ProjectAdRead'
 export default function Home() {
   return (
     <div className="container" >
-      <Topbar title="About"/>
+      <Topbar title="Projects"/>
       <Head>
-        <title>Emily's Site - About</title>
+        <title>Emily's Site - Projects</title>
         {/* <title>Emily's Site!</title> */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -24,6 +24,20 @@ export default function Home() {
           
           <Content name="projects">
 
+            <ProjectAdRead imgSource="/images/cropped.png"
+            imgAlt="Crypto Monitor"
+            title="Crypto Monitor"
+            description="I created a hardware-based Cryptocurrency price monitor that automatically updates and can be used for any desired cryptocurrency."
+            link="https://github.com/hdew12354/cryptoPriceMonitor"
+            lean="left"
+            />
+            <ProjectAdRead imgSource="/images/cropped.png"
+            imgAlt="Allan please add details"
+            title="Allan please add details"
+            description="Allan please add details"
+            link="#"
+            lean="left"
+            />
             <ProjectAdRead imgSource="/images/cropped.png"
             imgAlt="Allan please add details"
             title="Allan please add details"

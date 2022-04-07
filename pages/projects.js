@@ -23,27 +23,28 @@ export default function Home() {
           </p>
           
           <Content name="projects">
+          <ProjectAdRead imgSource="/images/icon-postmap-600px.png"
+            imgAlt="postmap"
+            title="PostMap"
+            description="PostMap is an Open-Source chrome extension that allows users to select a postcode and view it on a map, as well as get the latitude and longitude of the postcode."
+            link="https://github.com/Emilyonaire/postmap^Github Repo"
+            lean="Right"
+            />
 
-            <ProjectAdRead imgSource="/images/cropped.png"
-            imgAlt="Crypto Monitor"
-            title="Crypto Monitor"
-            description="I created a hardware-based Cryptocurrency price monitor that automatically updates and can be used for any desired cryptocurrency."
-            link="https://github.com/hdew12354/cryptoPriceMonitor"
-            lean="left"
+            <ProjectAdRead imgSource="/images/icon-goldRoll-60px.png"
+            imgAlt="bookingRoller"
+            title="GoldRoll"
+            description="GoldRoll is a fully custom desktop application, written in HTML and JS, with Google Calendar integrations, that allows users to import their booking calendar so that they can view, edit and inform customers of when their appointment is booked for in the day."
+            link="https://github.com/Emilyonaire/auto-roll^Github Repo"
+            lean="Center"
             />
-            <ProjectAdRead imgSource="/images/cropped.png"
-            imgAlt="Allan please add details"
-            title="Allan please add details"
-            description="Allan please add details"
-            link="#"
-            lean="left"
-            />
-            <ProjectAdRead imgSource="/images/cropped.png"
-            imgAlt="Allan please add details"
-            title="Allan please add details"
-            description="Allan please add details"
-            link="#"
-            lean="left"
+
+            <ProjectAdRead imgSource="/images/icon-googleSheetsRename-60px.png"
+            imgAlt="sheetNamer"
+            title="SheetNamer"
+            description="SheetNamer is a fully custom, Open-Source, Chrome extension that will automatically rename each Google Sheets tab to the name of the sheet, to increase productivity, by not having to manually search for the desired sheet in all open tabs."
+            link="https://github.com/Emilyonaire/googleSheetsRename^Github Repo"
+            lean="Center"
             />
 
             

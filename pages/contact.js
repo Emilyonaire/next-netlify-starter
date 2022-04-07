@@ -19,17 +19,22 @@ export default function Home() {
         <Content>
           <Header title="Contact me!" />
           <p className="description">
-          Allan please add details!
+          Here are my contact details.
           </p>
           
           <Content name="projects">
 
-            <ProjectAdRead imgSource="/images/cropped.png"
-            imgAlt="Allan please add details"
-            title="Allan please add details"
-            description="Allan please add details"
-            link="#"
+            <ProjectAdRead 
+            title="Mobile"
+            description="07470 904319"
             lean="left"
+            emote="☎️"
+            />
+            <ProjectAdRead 
+            title="Email"
+            lean="left"
+            link="mailto:emily.cowell.2002@gmail.com^emily.cowell.2002@gmail.com"
+            emote="📧"
             />
 
             

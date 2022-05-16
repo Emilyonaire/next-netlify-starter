@@ -15,7 +15,7 @@ export default function handler(request, response) {
 
         
         // RESPOND TO THE REQUEST
-        response.statusCode = 200;
+        response.status(200).send(stringIHave);
     } else if(request.method === 'GET'){
         // PROCESS GET REQUEST, INCOMING DATA
         response.status(200).json({

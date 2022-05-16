@@ -11,7 +11,7 @@ export default function handler(request, response) {
         // PROCESS POST REQUEST, INCOMING DATA
         console.log(request.body);
 
-        jsonIHave = request.body;
+        stringIHave = request.body;
 
         
         // RESPOND TO THE REQUEST

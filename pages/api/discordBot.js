@@ -12,14 +12,13 @@ export default function handler(request, response) {
         console.log(request.body); 
 
         stringIHave = request.body;
-        // response.status(200).json({
-        //     "message": "responded via json as was already in json",
-        //     "test": "response from post request"
-        // });
-
+        
         
         // RESPOND TO THE REQUEST
-        response.status(200).send();
+        response.status(200).json({
+            "message": "responded via json as was already in json",
+            "test": "got post request, stringIHave is now: " + stringIHave
+        });
     } else if(request.method === 'GET'){
         // PROCESS GET REQUEST, INCOMING DATA
         response.status(200).json({

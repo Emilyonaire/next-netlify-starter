@@ -1,7 +1,10 @@
 var jsonIHave = {
-    "currentMessage": "fetched from site",
-    "currentAuthor": "author fetched from the site",
-    "currentMessageID": "ID fetched from the site"
+    'currentMessage': 'message',
+    'currentAuthor': 'author',
+    'duration': '100',
+    'flashDelay': '100',
+    'currentMessageID': 'impotency',
+    'targetUserIDS': ''
 }
 
 var stringIHave = "site response to post request"
@@ -14,11 +17,18 @@ export default function handler(request, response) {
         
         console.log("========about to parse========")
         jsonIHave = request.body;
+        
+        jsonIHave.targetUserIDS = request.body.targetUserIDS.split("|")
+
         console.log("========about to print json========")
         console.log(jsonIHave);
         console.log(jsonIHave.currentMessage);
         console.log(jsonIHave.currentAuthor);
+        console.log(jsonIHave.duration);
+        console.log(jsonIHave.flashDelay);
         console.log(jsonIHave.currentMessageID);
+        console.log(jsonIHave.targetUserIDS);
+
         console.log("========printed json========")
 
         
